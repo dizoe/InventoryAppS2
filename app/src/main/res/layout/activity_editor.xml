@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:text="@string/category_overview" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <EditText
+                android:id="@+id/edit_product_name"
+                style="@style/EditorFieldStyle2"
+                android:hint="@string/hint_for_book_name"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/edit_price_field"
+                style="@style/EditorFieldStyle2"
+                android:hint="@string/hint_for_the_price"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutContainer">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:text="@string/quantity" />
+
+        <ImageButton
+            android:id="@+id/edit_quantity_increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus" />
+
+        <EditText
+            android:id="@+id/edit_book_quantity"
+            style="@style/EditorFieldStyle"
+            android:gravity="center_horizontal"
+            android:inputType="number" />
+
+        <ImageButton
+            android:id="@+id/edit_quantity_decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minus" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutContainer">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:layout_width="4dp"
+            android:layout_weight="1"
+            android:text="@string/supplier_name" />
+
+        <EditText
+            android:id="@+id/edit_supplier_name_text_field"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="3"
+            android:hint="@string/hint_for_supplier_name" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutContainer">
+
+        <TextView
+            style="@style/textViewInfoStyle"
+            android:text="@string/phone" />
+
+        <EditText
+            android:id="@+id/edit_phone_text_field"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="2"
+            android:hint="@string/hint_for_the_phone"
+            android:inputType="phone" />
+
+        <ImageButton
+            android:id="@+id/call_supplier_phone_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_phone_outgoing" />
+
+    </LinearLayout>
+
+</LinearLayout>

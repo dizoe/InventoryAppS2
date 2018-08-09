@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="product_name_edit_text" type="id">id</item>
+    <item name="action_insert_dummy_data" type="id">Insert Dummy Data</item>
+    <item name="action_delete_all_entries" type="id">Delete All Books</item>
+    <item name="insert_dummy_data" type="id">Insert Dummy Data</item>
+    <item name="action_delete" type="id">Delete all books</item>
+
+</resources>

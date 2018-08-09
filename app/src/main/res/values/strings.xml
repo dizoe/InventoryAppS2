@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Books App</string>
+
+    <string name="category_overview">Overview</string>
+
+    <string name="empty_view_title_text">No Books, No Wisdom!</string>
+
+    <string name="empty_view_subtitle_text">Start to add some books!</string>
+
+    <string name="insert_dummy_data">Insert Dummy Data </string>
+
+    <string name="add_item">Add new book</string>
+
+    <string name="hint_for_book_name">Book Name</string>
+
+    <string name="hint_for_the_price">Price</string>
+
+    <string name="hint_for_supplier_name">Supplier Name</string>
+
+    <string name="hint_for_the_phone">Supplier Phone Number</string>
+
+    <string name="edit_book">Edit the book</string>
+
+    <string name="quantity_field_cant_be_empty">Please select quantity</string>
+
+    <string name="quantity_cant_be_less_then_0">Quantity can\'t be less then 0</string>
+
+    <string name="fill_in">Please fill in the blanks</string>
+
+    <string name="question_for_empty_field_name">What is the name of book?</string>
+
+    <string name="question_for_empty_field_price">What is the price for book?</string>
+
+    <string name="question_for_empty_field_quantity">What is the quantity?</string>
+
+    <string name="question_for_empty_field_supplier_name">What is the name of the supplier?</string>
+
+    <string name="question_for_empty_field_supplier_phone">What is the phone number of the supplier?</string>
+
+    <string name="insert_failed">Error with saving new book</string>
+
+    <string name="insert_successful">Book saved</string>
+
+    <string name="delete_msg">Delete the book?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="quit_edit_msg">Quit editing?</string>
+
+    <string name="keep_edit_msg">Keep editing</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="delete_failed">Error with deleting!</string>
+
+    <string name="delete_successful">All books are successfully deleted</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="action_delete">Delete</string>
+
+    <string name="delete_all_entries">Delete All Books</string>
+
+    <string name="name">Book Name</string>
+
+    <string name="price">Price</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="supplier_name">Supplier Name</string>
+
+    <string name="phone">Supplier Phone</string>
+
+    <string name="error_saving">Error with saving item</string>
+
+    <string name="item_saved">Item saved  id:</string>
+
+    <string name="check_details">Check details</string>
+
+</resources>
+
+
+
+
